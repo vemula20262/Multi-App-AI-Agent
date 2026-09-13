@@ -871,6 +871,7 @@ export default function App() {
         </div>
         <div className="dialog-actions">
           <button
+            autoFocus
             disabled={disabled || voice.recording}
             onClick={() => void send("Deny", false)}
           >
@@ -878,7 +879,6 @@ export default function App() {
           </button>
           <button
             className="primary"
-            autoFocus
             disabled={disabled || voice.recording || seconds === 0}
             onClick={() => void send("Allow", true)}
           >
