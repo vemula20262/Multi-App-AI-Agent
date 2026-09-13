@@ -4,6 +4,7 @@ For the hackathon
 ## Forma — local voice agent
 
 A working hackathon prototype: speak or type a task, fill in missing details, and approve each browser read. Built with React + Vite, FastAPI + LangGraph, Ollama, Playwright, and whisper.cpp.
+Demo Link: https://drive.google.com/drive/folders/1x_2qVAZMDhQYZL67fGum5WOdTqex_FG1?usp=drive_link
 
 ### Start on this Mac
 
@@ -14,7 +15,6 @@ ollama serve
 # Terminal 2, from this repository
 .venv/bin/python scripts/dev.py
 ```
-
 Open **http://127.0.0.1:5173**. Backend API docs: **http://127.0.0.1:8000/docs**.
 
 ### Install on a fresh machine
