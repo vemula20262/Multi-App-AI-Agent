@@ -1532,3 +1532,46 @@ pre {
     font-size: 11px;
   }
 }
+/* Keep voice input visible on shorter laptop displays. */
+@media (max-height: 850px) and (min-width: 651px) {
+  .content {
+    padding-top: 24px;
+  }
+  .page-heading h1 {
+    font-size: 32px;
+    margin: 9px 0 7px;
+  }
+  .page-heading > p {
+    margin-bottom: 20px;
+  }
+  .conversation-card {
+    min-height: 420px;
+    height: calc(100dvh - 235px);
+  }
+  .welcome {
+    padding-top: 4px;
+  }
+  .orb {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 12px;
+  }
+  .orb-inner {
+    width: 46px;
+    height: 46px;
+  }
+  .orb-inner svg {
+    width: 28px;
+    height: 28px;
+  }
+  .welcome h2 {
+    font-size: 23px;
+    margin: 10px 0 7px;
+  }
+  .suggestions {
+    margin-top: 16px;
+  }
+  .subtle-link {
+    margin-top: 9px;
+  }
+}
